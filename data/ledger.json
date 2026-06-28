@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-06-28T12:26:09Z",
+  "business": "Otto Margin Desk",
+  "price_cents": 300,
+  "currency": "usd",
+  "payment": {
+    "mode": "local_stripe_style_test_event",
+    "payment_link": null,
+    "reason": "No Stripe test secret in runtime; using signed local checkout.session.completed event."
+  },
+  "safety_limits": {
+    "max_spend_per_cycle_cents": 100,
+    "live_spend_requires_human_approval": true,
+    "public_data_only": true
+  },
+  "stripe_event": {
+    "id": "evt_otto_demo_1782649569",
+    "type": "checkout.session.completed",
+    "created": 1782649569,
+    "livemode": false,
+    "data": {
+      "object": {
+        "id": "cs_test_otto_margin_desk",
+        "amount_total": 300,
+        "currency": "usd",
+        "customer_email": "buyer@example.com",
+        "metadata": {
+          "brief_headline": "Restaurant Margin Snapshot: Pricing Power Intact as Soy Softens; Diesel Divergence Flags Freight Risk"
+        }
+      }
+    },
+    "local_signature": "e3418094367de994311be89674389fd1b47770aca38333268e0b3be25fd7e38f"
+  },
+  "entries": [
+    {
+      "type": "revenue",
+      "label": "Daily brief checkout",
+      "amount_cents": 300,
+      "source": "evt_otto_demo_1782649569",
+      "timestamp": "2026-06-28T12:26:09Z"
+    },
+    {
+      "type": "spend",
+      "label": "MoA council synthesis",
+      "amount_cents": -42,
+      "approved_by": "policy:max_cycle_spend_100c",
+      "timestamp": "2026-06-28T12:26:09Z"
+    },
+    {
+      "type": "spend",
+      "label": "Public-source scouting / X Search",
+      "amount_cents": -8,
+      "approved_by": "policy:max_cycle_spend_100c",
+      "timestamp": "2026-06-28T12:26:09Z"
+    },
+    {
+      "type": "spend",
+      "label": "Static hosting allocation",
+      "amount_cents": -2,
+      "approved_by": "policy:max_cycle_spend_100c",
+      "timestamp": "2026-06-28T12:26:09Z"
+    },
+    {
+      "type": "reserve",
+      "label": "Reinvested into next scout cycle",
+      "amount_cents": -50,
+      "approved_by": "policy:retain_positive_balance",
+      "timestamp": "2026-06-28T12:26:09Z"
+    }
+  ],
+  "balance_cents": 198,
+  "gross_margin_cents_before_reinvestment": 248,
+  "delivery_status": "prepared"
+}

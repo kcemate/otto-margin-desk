@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-06-28T11:51:37Z",
+  "source_type": "public economic time series",
+  "signals": [
+    {
+      "id": "GASDESW",
+      "label": "U.S. No. 2 Diesel Retail Price",
+      "unit": "$/gal",
+      "source": "FRED GASDESW",
+      "url": "https://fred.stlouisfed.org/series/GASDESW",
+      "why_it_matters": "Proxy for delivered-cost pressure in trucking and refrigerated distribution.",
+      "latest_date": "2026-06-22",
+      "latest_value": 4.832,
+      "previous_value": null,
+      "change_vs_previous_pct": null,
+      "change_1m_pct": null,
+      "change_3m_pct": null,
+      "change_1y_pct": null,
+      "recent_min": 4.832,
+      "recent_max": 4.832,
+      "recent_avg": 4.832,
+      "fallback_from_live_probe": true,
+      "fallback_reason": "timeout('The read operation timed out')"
+    },
+    {
+      "id": "WPU012202",
+      "label": "PPI: Soybeans",
+      "unit": "index",
+      "source": "FRED WPU012202",
+      "url": "https://fred.stlouisfed.org/series/WPU012202",
+      "why_it_matters": "Feed/input proxy that can affect protein economics.",
+      "latest_date": "2026-05-01",
+      "latest_value": 185.55,
+      "previous_value": null,
+      "change_vs_previous_pct": null,
+      "change_1m_pct": null,
+      "change_3m_pct": null,
+      "change_1y_pct": null,
+      "recent_min": 185.55,
+      "recent_max": 185.55,
+      "recent_avg": 185.55,
+      "fallback_from_live_probe": true,
+      "fallback_reason": "timeout('The read operation timed out')"
+    },
+    {
+      "id": "CPIUFDSL",
+      "label": "CPI: Food",
+      "unit": "index",
+      "source": "FRED CPIUFDSL",
+      "url": "https://fred.stlouisfed.org/series/CPIUFDSL",
+      "why_it_matters": "Broad consumer food inflation pressure.",
+      "latest_date": "2026-05-01",
+      "latest_value": 348.892,
+      "previous_value": null,
+      "change_vs_previous_pct": null,
+      "change_1m_pct": null,
+      "change_3m_pct": null,
+      "change_1y_pct": null,
+      "recent_min": 348.892,
+      "recent_max": 348.892,
+      "recent_avg": 348.892,
+      "fallback_from_live_probe": true,
+      "fallback_reason": "timeout('The read operation timed out')"
+    },
+    {
+      "id": "CUSR0000SEFV",
+      "label": "CPI: Food Away From Home",
+      "unit": "index",
+      "source": "FRED CUSR0000SEFV",
+      "url": "https://fred.stlouisfed.org/series/CUSR0000SEFV",
+      "why_it_matters": "Restaurant pricing pressure and margin pass-through proxy.",
+      "latest_date": "2026-05-01",
+      "latest_value": 394.728,
+      "previous_value": null,
+      "change_vs_previous_pct": null,
+      "change_1m_pct": null,
+      "change_3m_pct": null,
+      "change_1y_pct": null,
+      "recent_min": 394.728,
+      "recent_max": 394.728,
+      "recent_avg": 394.728,
+      "fallback_from_live_probe": true,
+      "fallback_reason": "timeout('The read operation timed out')"
+    }
+  ],
+  "errors": [
+    {
+      "series": "GASDESW",
+      "error": "timeout('The read operation timed out')",
+      "fallback": "live_observed_seed"
+    },
+    {
+      "series": "WPU012202",
+      "error": "timeout('The read operation timed out')",
+      "fallback": "live_observed_seed"
+    },
+    {
+      "series": "CPIUFDSL",
+      "error": "timeout('The read operation timed out')",
+      "fallback": "live_observed_seed"
+    },
+    {
+      "series": "CUSR0000SEFV",
+      "error": "timeout('The read operation timed out')",
+      "fallback": "live_observed_seed"
+    }
+  ],
+  "notes": [
+    "Yahoo Finance futures endpoint returned 429 during build, so FRED is the durable no-key public data layer.",
+    "X/social context is stored in data/x_context.md from X Search summaries."
+  ]
+}

@@ -1,0 +1,12 @@
+# local/ephemeral deployment state
+.herenow/
+site/.herenow/
+docs/.herenow/
+
+# OS/editor noise
+.DS_Store
+*.log
+
+# local packaging artifacts kept out of git
+submission/otto-margin-desk-submission-package.zip
+submission/published-site-screenshot*.png

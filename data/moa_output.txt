@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-06-28T11:51:37Z",
+  "headline": "Restaurant Margin Snapshot: Pricing Power Intact as Soy Softens; Diesel Divergence Flags Freight Risk",
+  "abstract": "Otto Margin Desk synthesizes degraded but directional signals: Food-away-from-home CPI remains elevated (3.5%-3.7% context), supporting operator pricing power, while soybean PPI shows downward pressure on favorable U.S. weather. Diesel retail displays a divergence between FRED ($4.832/gal) and X/social ($5.00-$5.21), elevating freight-cost uncertainty. All FRED series fell back to single-point seeds due to timeouts, and Yahoo Finance futures returned 429, limiting quantitative edge. Confidence is medium-low. Immediate plays: lock protein/soy-linked contracts, audit fuel surcharges, and maintain menu pricing discipline.",
+  "confidence": "medium-low",
+  "signals": [
+    {
+      "name": "U.S. No. 2 Diesel Retail Price",
+      "value": "$4.832/gal (2026-06-22)",
+      "movement": "Snapshot single-point; X context flags $5.00-$5.21 range, implying upward volatility or regional dispersion",
+      "implication": "Reefer/dry-van delivered-cost risk is elevated; fuel surcharge leakage likely",
+      "source": "FRED GASDESW + X/social context",
+      "url": "https://fred.stlouisfed.org/series/GASDESW"
+    },
+    {
+      "name": "PPI: Soybeans",
+      "value": "185.55 index (2026-05-01)",
+      "movement": "Downward pressure per X/social (favorable U.S. growing weather)",
+      "implication": "Protein and feed input costs easing; window to lock contracts before export demand firms",
+      "source": "FRED WPU012202 + X/social context",
+      "url": "https://fred.stlouisfed.org/series/WPU012202"
+    },
+    {
+      "name": "CPI: Food",
+      "value": "348.892 index (2026-05-01)",
+      "movement": "Insufficient time-series history; broad inflation persistence implied by context",
+      "implication": "Grocery cost base remains firm, limiting at-home substitution tailwinds",
+      "source": "FRED CPIUFDSL + X/social context",
+      "url": "https://fred.stlouisfed.org/series/CPIUFDSL"
+    },
+    {
+      "name": "CPI: Food Away From Home",
+      "value": "394.728 index (2026-05-01)",
+      "movement": "Elevated; tracking 3.5%-3.7% per X/social commentary",
+      "implication": "Operator pricing power and margin pass-through environment remain supportive",
+      "source": "FRED CUSR0000SEFV + X/social context",
+      "url": "https://fred.stlouisfed.org/series/CUSR0000SEFV"
+    }
+  ],
+  "operator_play": [
+    "Negotiate protein and soymeal-linked supply contracts immediately while PPI shows softening and weather remains favorable.",
+    "Audit freight invoices and carrier fuel-surcharge schedules; diesel dispersion ($4.83 FRED vs $5.00+ X) signals volatility and potential leakage.",
+    "Maintain menu pricing discipline; the food-away-from-home CPI premium supports pass-through without significant demand destruction.",
+    "If operating private fleet, consider 60-90 day diesel hedges or surcharge caps to lock reefer costs."
+  ],
+  "risk_flags": [
+    "All FRED series returned timeout fallback to single-point seeds; month-over-month and year-over-year trends are unavailable.",
+    "Diesel price divergence between FRED snapshot ($4.832/gal) and X/social ($5.00-$5.21/gal) introduces material freight-cost uncertainty.",
+    "Soybean PPI is stale (May) and weather-driven softness can reverse on export demand or forecast shifts.",
+    "Yahoo Finance futures endpoint returned 429, removing real-time commodity futures edge from this briefing."
+  ],
+  "moa_roles": {
+    "reference_1": "openai-codex:gpt-5.5 — structured FRED signal extraction, quantitative trend analysis, divergence detection",
+    "reference_2": "ollama-launch:glm-5.2:cloud — X/social sentiment synthesis, qualitative operator context, forward anecdote scanning",
+    "aggregator": "openai-codex:gpt-5.5 — cross-reference validation, consensus building, operator playbook generation, risk flagging"
+  },
+  "moa_status": "consensus_with_divergence_flagged"
+}
+
+STDERR:
+
+session_id: 20260628_075724_166c43
