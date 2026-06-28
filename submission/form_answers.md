@@ -10,7 +10,7 @@ An autonomous margin-intelligence micro-business that uses Hermes MoA to create,
 Otto Margin Desk scouts public economic and social-market signals relevant to restaurant margin, synthesizes them through a Hermes MoA council, packages the result as a paid daily brief, records a checkout event, debits model/search/hosting costs under safety limits, reinvests into the next scouting cycle, and prepares delivery for the buyer.
 
 ## Why it is useful
-Operators do not need more dashboards; they need concise, decision-ready margin signals. Otto turns scattered public data into a paid executive brief with specific procurement/pricing actions.
+Restaurant margin leaders do not need more dashboards; they need concise, decision-ready margin signals. Otto turns scattered public data into a paid executive brief with specific procurement/pricing actions.
 
 ## Why it is viable
 The demo uses durable primitives: Hermes Agent, MoA, public data pulls, Stripe-style test checkout events, a treasury ledger, static publishing, and prepared gateway delivery. The architecture can swap in real Stripe test/live keys and scheduled cron without changing the business loop.
