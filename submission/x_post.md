@@ -12,6 +12,6 @@ Built with corrected MoA roles: GPT-5.5 reference, GLM 5.2 reference, GPT-5.5 ag
 
 It earns, spends, and runs the operation — not as a chatbot, as a business loop.
 
-Demo site: https://granite-hollow-gwrg.here.now/
+Demo site: https://kcemate.github.io/otto-margin-desk/
 
 [demo video attached]

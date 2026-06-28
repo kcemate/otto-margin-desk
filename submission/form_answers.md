@@ -22,7 +22,7 @@ The corrected council uses GPT-5.5 as Reference 1, GLM 5.2 Cloud as Reference 2,
 No proprietary data. No live spend without human approval. Per-cycle spend caps. If a live Stripe key is detected, object creation is blocked. If no test key is present, the demo uses a signed local Stripe-style test event and labels it honestly.
 
 ## Repository / demo URL
-https://granite-hollow-gwrg.here.now/
+https://kcemate.github.io/otto-margin-desk/
 
 ## X post URL
 [paste final X post URL]
